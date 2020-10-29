@@ -245,11 +245,19 @@
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
-        android:fontFamily="sans-serif"
         android:layout_height="wrap_content"
-        android:text="haha sahi chal rha h"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
 
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="666dp" />
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:text="haha sahi chal rha h"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
